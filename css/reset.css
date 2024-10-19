@@ -1,0 +1,138 @@
+/* Resetear márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Eliminar estilos de listas */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Eliminar estilos de enlaces */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Estilos básicos para imágenes */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /*  Normalizar la apariencia de los formularios */
+  input,
+  button,
+  textarea,
+  select {
+    font: inherit;
+    background-color: transparent;
+    border: none; 
+    padding: 0; 
+  }
+  
+  /*  Eliminar estilos de tablas */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  /*  Ajustar la altura de línea */
+  html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  /*  Evitar desbordamiento de texto en elementos */
+  body {
+    overflow-x: hidden;
+  }
+  
+  /*  Mejorar la renderización de fuentes */
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  /*  Eliminar el contorno punteado en los elementos enfocados */
+  *:focus {
+    outline: none;
+  }
+  
+  /*  Estilos para elementos HTML5 */
+  article, aside, details, figcaption, figure, 
+  footer, header, hgroup, menu, nav, section {
+    display: block;
+  }
+  
+  /*  Prevenir problemas con la altura de línea en elementos `pre` */
+  pre {
+    font-family: monospace, monospace;
+    font-size: 1em;
+  }
+  
+  /*  Mejorar la consistencia de las citas */
+  q {
+    quotes: none;
+  }
+  
+  q:before, q:after {
+    content: '';
+    content: none;
+  }
+  
+  /*  Controlar el espaciado entre letras */
+  html {
+    -webkit-text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%; 
+  }
+  
+  /*  Ajustar el tamaño de fuente para diferentes dispositivos */
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  /*  Ajustar el comportamiento de los botones */
+  button {
+    cursor: pointer; 
+    border: none; 
+    background-color: transparent; 
+  }
+  
+  /*  Eliminar estilos predeterminados de los campos de formulario */
+  input[type="search"] {
+    -webkit-appearance: textfield; 
+    -moz-appearance: textfield; 
+    appearance: textfield;
+  }
+  
+  input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  
+  /*  Ajustar el estilo de los placeholders */
+  ::-webkit-input-placeholder {
+    color: inherit;
+    opacity: 0.54;
+  }
+  
+  ::-moz-placeholder {
+    color: inherit;
+    opacity: 0.54;
+  }
+  
+  :-ms-input-placeholder {
+    color: inherit;
+    opacity: 0.54;
+  }
+  
+  /*  Ajustar el estilo de los elementos deshabilitados */
+  button:disabled,
+  html input[disabled] {
+    cursor: default;
+  }

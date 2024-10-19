@@ -1,0 +1,51 @@
+@media (min-width: 768px) {
+
+    /* Estilos generales para tablets */
+    body {
+      font-size: 18px; /* Ajustar tamaño de fuente para tablets */
+    }
+  
+    /* Encabezado */
+    header {
+      flex-direction: row; /* Mostrar elementos en fila */
+      justify-content: space-between; /* Distribuir elementos */
+      align-items: center;
+    }
+  
+    header img {
+      margin-bottom: 0; /* Eliminar margen inferior del logo */
+    }
+  
+    nav ul {
+      flex-direction: row; /* Mostrar menú en horizontal */
+      width: auto;
+    }
+  
+    nav li {
+      margin: 0 10px; /* Espacio entre elementos del menú */
+    }
+  
+    /* Hero */
+    .hero {
+      text-align: left; /* Alinear texto a la izquierda */
+    }
+  
+    .hero h1 {
+      font-size: 36px; /* Ajustar tamaño de título */
+    }
+  
+    /* Productos destacados y más vendidos */
+    .product-grid {
+      grid-template-columns: repeat(2, 1fr); /* Mostrar productos en dos columnas */
+    }
+  
+    /* Testimonios */
+    .testimonial {
+      font-size: 16px; /* Ajustar tamaño de fuente */
+    }
+  
+    /* Pie de página */
+    footer {
+      font-size: 16px; /* Ajustar tamaño de fuente */
+    }
+  }

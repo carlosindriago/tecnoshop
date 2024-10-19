@@ -1,0 +1,54 @@
+body {
+    font-size: 16px; /* Tamaño de fuente base para móviles */
+    line-height: 1.5; /* Altura de línea para mejorar la legibilidad */
+  }
+  
+  /* Encabezado */
+  header {
+    flex-direction: column; /* Apilar elementos en mobile */
+    align-items: flex-start; 
+  }
+  
+  header img {
+    margin-bottom: 10px; 
+  }
+  
+  nav ul {
+    display: flex; /* Mostrar menú en mobile */
+    flex-direction: column; /* Apilar elementos del menú */
+    width: 100%; 
+  }
+  
+  nav li {
+    margin: 5px 0; /* Espacio entre elementos del menú */
+    text-align: left; 
+  }
+  
+  /* Hero */
+  .hero img {
+    width: 100%; 
+    height: auto;
+  }
+  
+  .hero h1 {
+    font-size: 24px; /* Ajustar tamaño de título para mobile */
+  }
+  
+  /* Productos destacados y más vendidos */
+  .product-grid {
+    grid-template-columns: 1fr; /* Mostrar productos en una sola columna */
+  }
+  
+  .product-card {
+    margin-bottom: 20px; 
+  }
+  
+  /* Testimonios */
+  .testimonial {
+    font-size: 14px; 
+  }
+  
+  /* Pie de página */
+  footer {
+    font-size: 14px; 
+  }

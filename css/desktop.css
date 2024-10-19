@@ -1,0 +1,60 @@
+@media (min-width: 1024px) {
+
+    /* Estilos generales para desktop */
+    body {
+      font-size: 20px; /* Ajustar tamaño de fuente para desktop */
+    }
+  
+    /* Encabezado */
+    header {
+      padding: 20px 40px; /* Aumentar el padding */
+    }
+  
+    header img {
+      max-height: 100px; /* Ajustar tamaño del logo */
+    }
+  
+    nav ul {
+      gap: 20px; /* Espacio entre elementos del menú */
+    }
+  
+    /* Hero */
+    .hero {
+      padding: 40px; /* Aumentar el padding */
+      display: flex; /* Usar flexbox para alinear elementos */
+      align-items: center; 
+    }
+  
+    .hero img {
+      width: 50%; /* Ajustar ancho de la imagen */
+      margin-right: 40px; /* Espacio entre la imagen y el texto */
+    }
+  
+    .hero h1 {
+      font-size: 48px; /* Ajustar tamaño de título */
+    }
+  
+    /* Productos destacados y más vendidos */
+    .product-grid {
+      grid-template-columns: repeat(4, 1fr); /* Mostrar productos en cuatro columnas */
+    }
+  
+    .product-card {
+      margin-bottom: 40px; /* Aumentar el margen inferior */
+    }
+  
+    /* Testimonios */
+    .testimonials {
+      padding: 40px; /* Aumentar el padding */
+    }
+  
+    .testimonial {
+      font-size: 18px; /* Ajustar tamaño de fuente */
+    }
+  
+    /* Pie de página */
+    footer {
+      padding: 40px; /* Aumentar el padding */
+      font-size: 18px; /* Ajustar tamaño de fuente */
+    }
+  }
